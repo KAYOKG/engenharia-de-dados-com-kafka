@@ -6,7 +6,7 @@ Projeto de Engenharia de Dados de Ponta a Ponta em Dados do Mercado de Ações e
 Usaremos diferentes tecnologias, como Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena e SQL.
 
 ## Arquitetura
-<img src="Architecture.jpg">
+<img src="arquitetura.png">
 
 ## Tecnologia Utilizada
 - Python
