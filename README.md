@@ -69,20 +69,21 @@ Altere a linha `ADVERTISED_LISTENERS` para incluir o IP público da instância E
 Crie um tópico no Kafka executando:
 ```bash
 cd kafka_2.13-3.6.2
-bin/kafka-topics.sh --create --topic demo_testing2 --bootstrap-server {IP EC2}:9092 --replication-factor 1 --partitions 1
+bin/kafka-topics.sh --create --topic demo_testing2 --bootstrap-server 3.88.183.247:9092 --replication-factor 1 --partitions 1
 ```
 
 ### 6. Iniciar um Produtor
 Inicie um produtor Kafka para enviar mensagens para o tópico criado:
 ```bash
-bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server {IP EC2}:9092
+cd kafka_2.13-3.6.2
+bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server 3.88.183.247:9092
 ```
 
 ### 7. Iniciar um Consumidor
 Em outra janela do terminal, inicie um consumidor Kafka para receber mensagens do tópico:
 ```bash
 cd kafka_2.13-3.6.2
-bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server {IP EC2}:9092
+bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server 3.88.183.247:9092
 ```
 
 ---
