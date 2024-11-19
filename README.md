@@ -88,4 +88,4 @@ bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server 3.88.183.
 
 ---
 
-Esse guia detalha cada etapa necessária para configurar e rodar o Apache Kafka em um ambiente EC2, facilitando a execução do projeto em tempo real.
+Esse guia detalha cada etapa necessária para configurar e rodar o Apache Kafka em um ambiente EC2, facilitando a execução do projeto em tempo real
